@@ -9,7 +9,7 @@
       "reviewCount": 0,
       "bestRating": "5",
       "worstRating": "1",
-      "url": "https://www.google.com/maps?cid=PLACE_CID"
+      "url": "https://maps.app.goo.gl/oE7nAmj4V2dtQ6i97"
     },
     {
       "@type": "Review",
@@ -20,7 +20,7 @@
       "datePublished": "YYYY-MM-DD",
       "reviewBody": "Paste an actual published review snippet here (visible on page).",
       "publisher": {"@type": "Organization", "name": "Google"},
-      "url": "https://www.google.com/maps?cid=PLACE_CID"
+      "url": "https://maps.app.goo.gl/oE7nAmj4V2dtQ6i97"
     }
   ]
 }

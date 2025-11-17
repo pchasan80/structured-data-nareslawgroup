@@ -33,6 +33,17 @@
         {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.nareslawgroup.com/"},
         {"@type": "ListItem", "position": 2, "name": "Brain Injury Lawyer Denver", "item": "https://www.nareslawgroup.com/brain-injury-lawyer-denver/"}
       ]
+    },
+    {"@type": "FAQPage",
+      "@id": "https://www.nareslawgroup.com/brain-injury-lawyer-denver/#faq",
+      "isPartOf": {"@id": "https://www.nareslawgroup.com/brain-injury-lawyer-denver/#webpage"},
+      "mainEntity": [
+        {"@type": "Question", "name": "Do I need a lawyer for a concussion?", "acceptedAnswer": {"@type": "Answer", "text": "Brain injuries can be complex and often show normal imaging. An experienced lawyer coordinates testing, documents change over time, and presents proof."}},
+        {"@type": "Question", "name": "How long will my case take?", "acceptedAnswer": {"@type": "Answer", "text": "It varies with treatment and the evidence needed. We keep you informed and move the file with timelines and clear decisions."}},
+        {"@type": "Question", "name": "What if I was partly at fault?", "acceptedAnswer": {"@type": "Answer", "text": "Comparative fault rules may reduce recovery. We tie facts, medical notes, and function limits to show what changed after the injury."}},
+        {"@type": "Question", "name": "Will I have to go to court?", "acceptedAnswer": {"@type": "Answer", "text": "Many brain injury claims settle. If a fair resolution isn’t offered, we file suit and prepare you early so nothing feels new."}},
+        {"@type": "Question", "name": "Can I speak with someone today?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Free consultations are available to explain options, timing, and first steps."}}
+      ]
     }
   ]
 }

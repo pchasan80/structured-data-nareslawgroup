@@ -33,6 +33,15 @@
         {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.nareslawgroup.com/"},
         {"@type": "ListItem", "position": 2, "name": "Motor Vehicle Accident Lawyer Denver", "item": "https://www.nareslawgroup.com/motor-vehicle-accident-lawyer-denver/"}
       ]
-    }
+    },
+    {"@type": "FAQPage",
+      "@id": "https://www.nareslawgroup.com/motor-vehicle-accident-lawyer-denver/#faq",
+      "isPartOf": {"@id": "https://www.nareslawgroup.com/motor-vehicle-accident-lawyer-denver/#webpage"},
+      "mainEntity": [
+        {"@type": "Question", "name": "How long do car accident cases take?", "acceptedAnswer": {"@type": "Answer", "text": "It depends on treatment duration, records, and the number of parties. Many cases resolve after recovery through negotiation; if offers aren’t fair, we file suit."}},
+        {"@type": "Question", "name": "Do I have to go to court?", "acceptedAnswer": {"@type": "Answer", "text": "Most car accident claims settle. If settlement stalls or is unfair, we prepare and file a lawsuit and guide you through each step."}},
+        {"@type": "Question", "name": "What if I was partly at fault?", "acceptedAnswer": {"@type": "Answer", "text": "Colorado’s comparative fault rules may reduce recovery by your share of fault. We build proof from reports, photos, and records to present your claim."}},
+        {"@type": "Question", "name": "When should I contact a car accident lawyer?", "acceptedAnswer": {"@type": "Answer", "text": "As soon as possible. Early contact helps preserve evidence, protect your claim, and avoid broad insurer releases or recorded statements."}}
+      ]}
   ]
 }

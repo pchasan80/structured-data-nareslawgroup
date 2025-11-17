@@ -30,6 +30,16 @@
         {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.nareslawgroup.com/"},
         {"@type": "ListItem", "position": 2, "name": "Motor Vehicle Accident", "item": "https://www.nareslawgroup.com/motor-vehicle-accident/"}
       ]
+    },
+    {"@type": "FAQPage",
+      "@id": "https://www.nareslawgroup.com/motor-vehicle-accident/#faq",
+      "isPartOf": {"@id": "https://www.nareslawgroup.com/motor-vehicle-accident/#webpage"},
+      "mainEntity": [
+        {"@type": "Question", "name": "How long do I have to file a vehicle accident claim in Colorado?", "acceptedAnswer": {"@type": "Answer", "text": "Deadlines apply under Colorado law. Contact us to confirm your timeline and preserve evidence as soon as possible."}},
+        {"@type": "Question", "name": "What if I was partially at fault for the crash?", "acceptedAnswer": {"@type": "Answer", "text": "You may still recover under comparative fault, though your recovery can be reduced by your share of responsibility."}},
+        {"@type": "Question", "name": "What if the other driver has no insurance in Denver? Can I still get help?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. We review med-pay and UM/UIM and pursue all available coverage and claims based on the facts."}},
+        {"@type": "Question", "name": "Should I talk to the insurance company before hiring an attorney?", "acceptedAnswer": {"@type": "Answer", "text": "Speak with a lawyer first. We help you avoid broad releases and recorded statements that can hurt your claim."}}
+      ]
     }
   ]
 }

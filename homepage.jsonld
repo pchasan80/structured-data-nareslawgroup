@@ -15,9 +15,9 @@
       "image": "https://www.nareslawgroup.com/wp-content/uploads/elementor/thumbs/LOGO-2-FOR-LIGHT-BACKGROUND_2-removebg-preview-1-r333rbobxh5vfux4toi0wl2ghzqn1hl7w9d74e7lpc.png",
       "founder": {
         "@type": "Person",
-        "name": "FIRST LAST"  
+        "name": "Kaitlin Nares"  
       },
-      "foundingDate": "YYYY",
+      "foundingDate": "2022",
       "description": "Personal injury law firm helping victims of motor vehicle accidents, truck wrecks, brain injury, wrongful death, and general personal injury claims.",
       "email": "mailto:info@nareslawgroup.com",
       "telephone": "+1-720-637-7786",
@@ -48,9 +48,9 @@
       "openingHoursSpecification": [
         {
           "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-          "opens": "08:30",
-          "closes": "17:30"
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "opens": "00:00",
+          "closes": "23:59"
         }
       ],
       "knowsAbout": [
@@ -70,11 +70,11 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.9",
-        "ratingCount": 0,
-        "reviewCount": 0,
+        "ratingCount": 94,
+        "reviewCount": 94,
         "bestRating": "5",
         "worstRating": "1",
-        "url": "https://www.google.com/maps?cid=PLACE_CID"
+        "url": "https://maps.app.goo.gl/oE7nAmj4V2dtQ6i97"
       },
       "review": [
         {
@@ -84,7 +84,7 @@
           "datePublished": "YYYY-MM-DD",
           "reviewBody": "Short, verbatim snippet of an actual Google review that you display on the page.",
           "publisher": {"@type": "Organization", "name": "Google"},
-          "url": "https://www.google.com/maps?cid=PLACE_CID"
+          "url": "https://maps.app.goo.gl/oE7nAmj4V2dtQ6i97"
         }
       ]
     },
@@ -124,6 +124,19 @@
             "name": "Home",
             "item": "https://www.nareslawgroup.com/"
         }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.nareslawgroup.com/#faq",
+      "isPartOf": {"@id": "https://www.nareslawgroup.com/#webpage"},
+      "mainEntity": [
+        {"@type": "Question", "name": "What should I do right after a car or truck accident in Denver?", "acceptedAnswer": {"@type": "Answer", "text": "Get medical care the same day, document the scene, avoid recorded statements to insurers, and contact us to preserve evidence and confirm timelines."}},
+        {"@type": "Question", "name": "Will the insurance company pay all my medical bills after a crash in Denver?", "acceptedAnswer": {"@type": "Answer", "text": "Coverage depends on policies like med-pay, UM/UIM, and liability limits. We track balances, review coverage, and pursue all available recovery."}},
+        {"@type": "Question", "name": "What if the other driver has no insurance in Denver? Can I still get help?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. We evaluate UM/UIM and other options and move the file forward with clear documentation."}},
+        {"@type": "Question", "name": "Do I need a lawyer in Denver if the crash was not my fault?", "acceptedAnswer": {"@type": "Answer", "text": "Not required, but counsel helps protect your rights, organize records, and negotiate with insurers. We offer a free consultation."}},
+        {"@type": "Question", "name": "How much money can I get after a car or truck accident in Denver?", "acceptedAnswer": {"@type": "Answer", "text": "Compensation depends on medical bills, wage loss, future care, and life impact. We present clear math tied to records and evidence."}},
+        {"@type": "Question", "name": "Can I speak with someone today?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Contact us for a free consultation and a step-by-step plan."}}
       ]
     }
   ]

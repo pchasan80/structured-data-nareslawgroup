@@ -1,0 +1,48 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {"@type": "Service",
+      "@id": "https://www.nareslawgroup.com/personal-injury/#service",
+      "name": "Personal Injury Legal Services",
+      "serviceType": "Personal Injury Representation",
+      "provider": {"@id": "https://www.nareslawgroup.com/#org"},
+      "areaServed": [
+        {"@type": "City", "name": "Denver"},
+        {"@type": "City", "name": "Aurora"},
+        {"@type": "AdministrativeArea", "name": "Colorado"}
+      ],
+      "description": "Legal representation for a broad range of personal injury and negligence claims.",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Free initial consultation"}
+    },
+    {"@type": "WebPage",
+      "@id": "https://www.nareslawgroup.com/personal-injury/#webpage",
+      "url": "https://www.nareslawgroup.com/personal-injury/",
+      "name": "Personal Injury Lawyers | Nares Law Group",
+      "isPartOf": {"@id": "https://www.nareslawgroup.com/#website"},
+      "about": {"@id": "https://www.nareslawgroup.com/personal-injury/#service"},
+      "description": "Personal injury legal services for victims seeking compensation in Colorado.",
+      "breadcrumb": {"@id": "https://www.nareslawgroup.com/personal-injury/#breadcrumb"},
+      "inLanguage": "en-US"
+    },
+    {"@type": "BreadcrumbList",
+      "@id": "https://www.nareslawgroup.com/personal-injury/#breadcrumb",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.nareslawgroup.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Personal Injury", "item": "https://www.nareslawgroup.com/personal-injury/"}
+      ]
+    },
+    {"@type": "FAQPage",
+      "@id": "https://www.nareslawgroup.com/personal-injury/#faq",
+      "isPartOf": {"@id": "https://www.nareslawgroup.com/personal-injury/#webpage"},
+      "mainEntity": [
+        {"@type": "Question", "name": "Claim vs. lawsuit: what’s the difference?", "acceptedAnswer": {"@type": "Answer", "text": "Claim: A legal demand for compensation, often submitted to an insurance company. Lawsuit: A formal legal action filed in court when a fair settlement cannot be reached."}},
+        {"@type": "Question", "name": "Do all personal injury claims go to court?", "acceptedAnswer": {"@type": "Answer", "text": "Not all cases require a trial. In fact, most personal injury matters in Colorado settle outside of court. We prepare every case as if it will go before a judge and jury."}},
+        {"@type": "Question", "name": "Damages available in a personal injury claim", "acceptedAnswer": {"@type": "Answer", "text": "Economic damages include medical expenses, lost wages, and future financial losses. Non-economic damages include pain, suffering, and loss of enjoyment. Punitive damages may be awarded in rare cases."}},
+        {"@type": "Question", "name": "Do you really need a personal injury lawyer?", "acceptedAnswer": {"@type": "Answer", "text": "Legally, you are not required to hire an attorney, but insurers are trained to settle quickly and for as little as possible. With Nares Law Group, you gain negotiators, accurate valuation, and a team ready to litigate if necessary."}},
+        {"@type": "Question", "name": "Statute of limitations for personal injury claims in Colorado", "acceptedAnswer": {"@type": "Answer", "text": "Deadlines are strict and begin running at the time of injury. Contact us as soon as possible to preserve your right to recovery."}},
+        {"@type": "Question", "name": "Shared fault in Colorado: can you still recover compensation?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Under comparative negligence rules, recovery may be reduced by your share of fault but is still possible if you are not mostly at fault."}},
+        {"@type": "Question", "name": "Pre-existing conditions and injury claims", "acceptedAnswer": {"@type": "Answer", "text": "Insurers may argue pre-existing conditions caused your symptoms. Thorough documentation and timelines help separate old issues from new harm."}}
+      ]
+    }
+  ]
+}

@@ -32,6 +32,17 @@
         {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.nareslawgroup.com/"},
         {"@type": "ListItem", "position": 2, "name": "Wrongful Death Lawyer Denver", "item": "https://www.nareslawgroup.com/wrongful-death-lawyer-denver/"}
       ]
+    },
+    {"@type": "FAQPage",
+      "@id": "https://www.nareslawgroup.com/wrongful-death-lawyer-denver/#faq",
+      "isPartOf": {"@id": "https://www.nareslawgroup.com/wrongful-death-lawyer-denver/#webpage"},
+      "mainEntity": [
+        {"@type": "Question", "name": "How long does a case take?", "acceptedAnswer": {"@type": "Answer", "text": "Timing depends on evidence, records, expert input, and whether settlement resolves the claim or litigation is required; we map deadlines early and keep families updated."}},
+        {"@type": "Question", "name": "Will we have to go to court?", "acceptedAnswer": {"@type": "Answer", "text": "Many wrongful death matters settle; if offers are unfair we file suit and prepare you early so nothing feels new."}},
+        {"@type": "Question", "name": "Who may bring the claim?", "acceptedAnswer": {"@type": "Answer", "text": "Colorado law grants the surviving spouse priority in the first year, heirs in the second, and parents if the deceased had no spouse or descendants; designated beneficiaries may also have rights."}},
+        {"@type": "Question", "name": "What documents should we gather now?", "acceptedAnswer": {"@type": "Answer", "text": "Collect reports, photos, witness contacts, medical bills, funeral invoices, income records, and memorial items; keep mail and statements organized."}},
+        {"@type": "Question", "name": "Can we speak with someone today?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. A free consultation is available; we listen, explain options, and outline the next steps."}}
+      ]
     }
   ]
 }

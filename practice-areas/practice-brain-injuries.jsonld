@@ -30,6 +30,13 @@
         {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.nareslawgroup.com/"},
         {"@type": "ListItem", "position": 2, "name": "Brain Injuries", "item": "https://www.nareslawgroup.com/brain-injuries/"}
       ]
+    },
+    {"@type": "FAQPage",
+      "@id": "https://www.nareslawgroup.com/brain-injuries/#faq",
+      "isPartOf": {"@id": "https://www.nareslawgroup.com/brain-injuries/#webpage"},
+      "mainEntity": [
+        {"@type": "Question", "name": "Why hiring a brain injury lawyer matters", "acceptedAnswer": {"@type": "Answer", "text": "Brain injuries are often invisible and require specialized testing and expert coordination. Insurance carriers may minimize claims, while long-term consequences affect work and quality of life; a lawyer ensures full damages are pursued."}}
+      ]
     }
   ]
 }

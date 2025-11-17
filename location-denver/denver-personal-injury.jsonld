@@ -33,6 +33,17 @@
         {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.nareslawgroup.com/"},
         {"@type": "ListItem", "position": 2, "name": "Personal Injury Lawyer Denver", "item": "https://www.nareslawgroup.com/personal-injury-lawyer-denver/"}
       ]
+    },
+    {"@type": "FAQPage",
+      "@id": "https://www.nareslawgroup.com/personal-injury-lawyer-denver/#faq",
+      "isPartOf": {"@id": "https://www.nareslawgroup.com/personal-injury-lawyer-denver/#webpage"},
+      "mainEntity": [
+        {"@type": "Question", "name": "Do I need a personal injury lawyer after a \u201cminor\u201d crash?", "acceptedAnswer": {"@type": "Answer", "text": "Not required, but counsel helps value your claim, avoid mistakes with insurers, and keep deadlines on track. We offer a free consultation."}},
+        {"@type": "Question", "name": "How long will my case take?", "acceptedAnswer": {"@type": "Answer", "text": "Timing depends on treatment, records, and insurer response. Many files resolve after recovery through negotiation; if needed, we file suit."}},
+        {"@type": "Question", "name": "Will I have to go to court?", "acceptedAnswer": {"@type": "Answer", "text": "Many personal injury matters settle. If a fair offer isn’t made, we file a lawsuit and prepare you early so nothing feels new."}},
+        {"@type": "Question", "name": "What if I was partly at fault?", "acceptedAnswer": {"@type": "Answer", "text": "Comparative fault may reduce recovery by your share of responsibility. We separate old conditions from new harm and present clear proof."}},
+        {"@type": "Question", "name": "Can I talk to someone today?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Free consultations are available. We will explain options, timing, and next steps."}}
+      ]
     }
   ]
 }
