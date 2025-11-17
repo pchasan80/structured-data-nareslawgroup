@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {"@type": ["LegalService", "ProfessionalService"],
+      "@id": "https://www.nareslawgroup.com/motor-vehicle-accident-lawyer-denver/#service",
+      "name": "Motor Vehicle Accident Lawyer Denver",
+      "url": "https://www.nareslawgroup.com/motor-vehicle-accident-lawyer-denver/",
+      "serviceType": "Motor Vehicle Accident Representation",
+      "provider": {"@id": "https://www.nareslawgroup.com/#org"},
+      "areaServed": {"@type": "City", "name": "Denver"},
+      "audience": {"@type": "Audience", "audienceType": "Injured Motorists"},
+      "description": "Denver car and motor vehicle accident legal representation helping injured victims pursue compensation.",
+      "termsOfService": "https://www.nareslawgroup.com/terms/",
+      "hasOfferCatalog": {"@type": "OfferCatalog", "name": "Accident Case Support", "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Claim Evaluation"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Insurance Negotiation"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Litigation & Trial"}}
+      ]}
+    },
+    {"@type": "WebPage",
+      "@id": "https://www.nareslawgroup.com/motor-vehicle-accident-lawyer-denver/#webpage",
+      "url": "https://www.nareslawgroup.com/motor-vehicle-accident-lawyer-denver/",
+      "name": "Motor Vehicle Accident Lawyer Denver | Nares Law Group",
+      "isPartOf": {"@id": "https://www.nareslawgroup.com/#website"},
+      "about": {"@id": "https://www.nareslawgroup.com/motor-vehicle-accident-lawyer-denver/#service"},
+      "description": "Experienced Denver motor vehicle accident lawyers fighting for injured victims.",
+      "breadcrumb": {"@id": "https://www.nareslawgroup.com/motor-vehicle-accident-lawyer-denver/#breadcrumb"},
+      "inLanguage": "en-US"
+    },
+    {"@type": "BreadcrumbList",
+      "@id": "https://www.nareslawgroup.com/motor-vehicle-accident-lawyer-denver/#breadcrumb",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.nareslawgroup.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Motor Vehicle Accident Lawyer Denver", "item": "https://www.nareslawgroup.com/motor-vehicle-accident-lawyer-denver/"}
+      ]
+    }
+  ]
+}

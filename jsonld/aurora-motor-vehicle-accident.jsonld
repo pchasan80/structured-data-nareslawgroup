@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {"@type": ["LegalService", "ProfessionalService"],
+      "@id": "https://www.nareslawgroup.com/motor-vehicle-accident-lawyer-aurora/#service",
+      "name": "Motor Vehicle Accident Lawyer Aurora",
+      "url": "https://www.nareslawgroup.com/motor-vehicle-accident-lawyer-aurora/",
+      "serviceType": "Motor Vehicle Accident Representation",
+      "provider": {"@id": "https://www.nareslawgroup.com/#org"},
+      "areaServed": {"@type": "City", "name": "Aurora"},
+      "audience": {"@type": "Audience", "audienceType": "Injured Motorists"},
+      "description": "Aurora motor vehicle accident attorneys pursuing compensation for injured drivers and passengers.",
+      "hasOfferCatalog": {"@type": "OfferCatalog", "name": "Accident Case Support", "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Claim Evaluation"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Insurance Negotiation"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Litigation & Trial"}}
+      ]}
+    },
+    {"@type": "WebPage",
+      "@id": "https://www.nareslawgroup.com/motor-vehicle-accident-lawyer-aurora/#webpage",
+      "url": "https://www.nareslawgroup.com/motor-vehicle-accident-lawyer-aurora/",
+      "name": "Motor Vehicle Accident Lawyer Aurora | Nares Law Group",
+      "isPartOf": {"@id": "https://www.nareslawgroup.com/#website"},
+      "about": {"@id": "https://www.nareslawgroup.com/motor-vehicle-accident-lawyer-aurora/#service"},
+      "description": "Aurora car accident lawyers helping victims recover damages.",
+      "breadcrumb": {"@id": "https://www.nareslawgroup.com/motor-vehicle-accident-lawyer-aurora/#breadcrumb"},
+      "inLanguage": "en-US"
+    },
+    {"@type": "BreadcrumbList",
+      "@id": "https://www.nareslawgroup.com/motor-vehicle-accident-lawyer-aurora/#breadcrumb",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.nareslawgroup.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Motor Vehicle Accident Lawyer Aurora", "item": "https://www.nareslawgroup.com/motor-vehicle-accident-lawyer-aurora/"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {"@type": ["LegalService", "ProfessionalService"],
+      "@id": "https://www.nareslawgroup.com/personal-injury-lawyer-denver/#service",
+      "name": "Personal Injury Lawyer Denver",
+      "url": "https://www.nareslawgroup.com/personal-injury-lawyer-denver/",
+      "serviceType": "Personal Injury Representation",
+      "provider": {"@id": "https://www.nareslawgroup.com/#org"},
+      "areaServed": {"@type": "City", "name": "Denver"},
+      "audience": {"@type": "Audience", "audienceType": "Injury Victims"},
+      "description": "Denver personal injury lawyers handling a broad range of injury and negligence claims.",
+      "knowsAbout": ["Negligence", "Tort Claims", "Settlement Negotiation"],
+      "hasOfferCatalog": {"@type": "OfferCatalog", "name": "Injury Claim Support", "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Case Evaluation"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Negotiation & Settlement"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Trial Advocacy"}}
+      ]}
+    },
+    {"@type": "WebPage",
+      "@id": "https://www.nareslawgroup.com/personal-injury-lawyer-denver/#webpage",
+      "url": "https://www.nareslawgroup.com/personal-injury-lawyer-denver/",
+      "name": "Personal Injury Lawyer Denver | Nares Law Group",
+      "isPartOf": {"@id": "https://www.nareslawgroup.com/#website"},
+      "about": {"@id": "https://www.nareslawgroup.com/personal-injury-lawyer-denver/#service"},
+      "description": "Comprehensive personal injury legal services for Denver victims.",
+      "breadcrumb": {"@id": "https://www.nareslawgroup.com/personal-injury-lawyer-denver/#breadcrumb"},
+      "inLanguage": "en-US"
+    },
+    {"@type": "BreadcrumbList",
+      "@id": "https://www.nareslawgroup.com/personal-injury-lawyer-denver/#breadcrumb",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.nareslawgroup.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Personal Injury Lawyer Denver", "item": "https://www.nareslawgroup.com/personal-injury-lawyer-denver/"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {"@type": ["LegalService", "ProfessionalService"],
+      "@id": "https://www.nareslawgroup.com/wrongful-death-lawyer-denver/#service",
+      "name": "Wrongful Death Lawyer Denver",
+      "url": "https://www.nareslawgroup.com/wrongful-death-lawyer-denver/",
+      "serviceType": "Wrongful Death Representation",
+      "provider": {"@id": "https://www.nareslawgroup.com/#org"},
+      "areaServed": {"@type": "City", "name": "Denver"},
+      "audience": {"@type": "Audience", "audienceType": "Families of Wrongful Death Victims"},
+      "description": "Denver wrongful death lawyers helping families pursue justice and compensation.",
+      "hasOfferCatalog": {"@type": "OfferCatalog", "name": "Wrongful Death Support", "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Estate Claim Assessment"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Liability Investigation"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Economic Loss Analysis"}}
+      ]}
+    },
+    {"@type": "WebPage",
+      "@id": "https://www.nareslawgroup.com/wrongful-death-lawyer-denver/#webpage",
+      "url": "https://www.nareslawgroup.com/wrongful-death-lawyer-denver/",
+      "name": "Wrongful Death Lawyer Denver | Nares Law Group",
+      "isPartOf": {"@id": "https://www.nareslawgroup.com/#website"},
+      "about": {"@id": "https://www.nareslawgroup.com/wrongful-death-lawyer-denver/#service"},
+      "description": "Legal representation for wrongful death cases in Denver.",
+      "breadcrumb": {"@id": "https://www.nareslawgroup.com/wrongful-death-lawyer-denver/#breadcrumb"},
+      "inLanguage": "en-US"
+    },
+    {"@type": "BreadcrumbList",
+      "@id": "https://www.nareslawgroup.com/wrongful-death-lawyer-denver/#breadcrumb",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.nareslawgroup.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Wrongful Death Lawyer Denver", "item": "https://www.nareslawgroup.com/wrongful-death-lawyer-denver/"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": ["Organization", "LegalService"],
+      "@id": "https://www.nareslawgroup.com/#org",
+      "name": "Nares Law Group",
+      "url": "https://www.nareslawgroup.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://www.nareslawgroup.com/#logo",
+        "url": "https://www.nareslawgroup.com/wp-content/uploads/elementor/thumbs/LOGO-2-FOR-LIGHT-BACKGROUND_2-removebg-preview-1-r333rbobxh5vfux4toi0wl2ghzqn1hl7w9d74e7lpc.png",
+        "contentUrl": "https://www.nareslawgroup.com/wp-content/uploads/elementor/thumbs/LOGO-2-FOR-LIGHT-BACKGROUND_2-removebg-preview-1-r333rbobxh5vfux4toi0wl2ghzqn1hl7w9d74e7lpc.png"
+      },
+      "image": "https://www.nareslawgroup.com/wp-content/uploads/elementor/thumbs/LOGO-2-FOR-LIGHT-BACKGROUND_2-removebg-preview-1-r333rbobxh5vfux4toi0wl2ghzqn1hl7w9d74e7lpc.png",
+      "founder": {
+        "@type": "Person",
+        "name": "FIRST LAST"  
+      },
+      "foundingDate": "YYYY",
+      "description": "Personal injury law firm helping victims of motor vehicle accidents, truck wrecks, brain injury, wrongful death, and general personal injury claims.",
+      "email": "mailto:info@nareslawgroup.com",
+      "telephone": "+1-720-637-7786",
+      "sameAs": [
+        "https://www.linkedin.com/company/nareslawgroup",
+        "https://www.facebook.com/profile.php?id=61562560452944",
+        "https://www.instagram.com/nareslawgroup/",
+        "https://www.youtube.com/@nareslawgroup"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "501 S. Cherry Street, Suite 1100",
+        "addressLocality": "Denver",
+        "addressRegion": "CO",
+        "postalCode": "80246",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {"@type": "City", "name": "Denver"},
+        {"@type": "City", "name": "Aurora"},
+        {"@type": "AdministrativeArea", "name": "Colorado"}
+      ],
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 39.7392,
+        "longitude": -104.9903
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "08:30",
+          "closes": "17:30"
+        }
+      ],
+      "knowsAbout": [
+        "Motor Vehicle Accident Law", "Truck Accident Litigation", "Brain Injury Cases", "Wrongful Death", "Personal Injury Claims", "Insurance Negotiation", "Trial Representation"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Injury Law Services",
+        "itemListElement": [
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Motor Vehicle Accident Representation", "@id": "https://www.nareslawgroup.com/motor-vehicle-accident/"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Truck Wreck Legal Services", "@id": "https://www.nareslawgroup.com/truck-wrecks/"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Brain Injury Claims", "@id": "https://www.nareslawgroup.com/brain-injuries/"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Wrongful Death Representation", "@id": "https://www.nareslawgroup.com/wrongful-death/"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Personal Injury Legal Services", "@id": "https://www.nareslawgroup.com/personal-injury/"}}
+        ]
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": 0,
+        "reviewCount": 0,
+        "bestRating": "5",
+        "worstRating": "1",
+        "url": "https://www.google.com/maps?cid=PLACE_CID"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
+          "author": {"@type": "Person", "name": "Reviewer Name"},
+          "datePublished": "YYYY-MM-DD",
+          "reviewBody": "Short, verbatim snippet of an actual Google review that you display on the page.",
+          "publisher": {"@type": "Organization", "name": "Google"},
+          "url": "https://www.google.com/maps?cid=PLACE_CID"
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.nareslawgroup.com/#website",
+      "url": "https://www.nareslawgroup.com/",
+      "name": "Nares Law Group",
+      "publisher": {"@id": "https://www.nareslawgroup.com/#org"},
+      "inLanguage": "en-US",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.nareslawgroup.com/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.nareslawgroup.com/#webpage",
+      "url": "https://www.nareslawgroup.com/",
+      "name": "Personal Injury & Accident Lawyers | Nares Law Group",
+      "isPartOf": {"@id": "https://www.nareslawgroup.com/#website"},
+      "about": {"@id": "https://www.nareslawgroup.com/#org"},
+      "primaryImageOfPage": {"@id": "https://www.nareslawgroup.com/#logo"},
+      "description": "Experienced Denver & Aurora personal injury law firm handling car, truck, brain injury, wrongful death, and general injury cases.",
+      "datePublished": "YYYY-MM-DD",
+      "dateModified": "YYYY-MM-DD",
+      "breadcrumb": {"@id": "https://www.nareslawgroup.com/#breadcrumb"}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.nareslawgroup.com/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.nareslawgroup.com/"
+        }
+      ]
+    }
+  ]
+}

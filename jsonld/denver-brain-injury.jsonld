@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {"@type": ["LegalService", "ProfessionalService"],
+      "@id": "https://www.nareslawgroup.com/brain-injury-lawyer-denver/#service",
+      "name": "Brain Injury Lawyer Denver",
+      "url": "https://www.nareslawgroup.com/brain-injury-lawyer-denver/",
+      "serviceType": "Brain Injury Legal Representation",
+      "provider": {"@id": "https://www.nareslawgroup.com/#org"},
+      "areaServed": {"@type": "City", "name": "Denver"},
+      "audience": {"@type": "Audience", "audienceType": "TBI Victims"},
+      "description": "Denver brain injury attorneys advocating for traumatic brain injury victims.",
+      "knowsAbout": ["Traumatic Brain Injury", "Concussion Claims", "Neuro Expert Testimony"],
+      "hasOfferCatalog": {"@type": "OfferCatalog", "name": "Brain Injury Support", "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Medical Expert Coordination"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Life Care Planning"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Future Damages Analysis"}}
+      ]}
+    },
+    {"@type": "WebPage",
+      "@id": "https://www.nareslawgroup.com/brain-injury-lawyer-denver/#webpage",
+      "url": "https://www.nareslawgroup.com/brain-injury-lawyer-denver/",
+      "name": "Brain Injury Lawyer Denver | Nares Law Group",
+      "isPartOf": {"@id": "https://www.nareslawgroup.com/#website"},
+      "about": {"@id": "https://www.nareslawgroup.com/brain-injury-lawyer-denver/#service"},
+      "description": "Legal help for traumatic brain injury victims in Denver.",
+      "breadcrumb": {"@id": "https://www.nareslawgroup.com/brain-injury-lawyer-denver/#breadcrumb"},
+      "inLanguage": "en-US"
+    },
+    {"@type": "BreadcrumbList",
+      "@id": "https://www.nareslawgroup.com/brain-injury-lawyer-denver/#breadcrumb",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.nareslawgroup.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Brain Injury Lawyer Denver", "item": "https://www.nareslawgroup.com/brain-injury-lawyer-denver/"}
+      ]
+    }
+  ]
+}

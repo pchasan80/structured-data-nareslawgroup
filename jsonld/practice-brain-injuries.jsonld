@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {"@type": "Service",
+      "@id": "https://www.nareslawgroup.com/brain-injuries/#service",
+      "name": "Brain Injury Legal Services",
+      "serviceType": "Traumatic Brain Injury Representation",
+      "provider": {"@id": "https://www.nareslawgroup.com/#org"},
+      "areaServed": [
+        {"@type": "City", "name": "Denver"},
+        {"@type": "City", "name": "Aurora"},
+        {"@type": "AdministrativeArea", "name": "Colorado"}
+      ],
+      "description": "Legal advocacy for traumatic brain injury victims including life care planning and future damages analysis.",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Free initial consultation"}
+    },
+    {"@type": "WebPage",
+      "@id": "https://www.nareslawgroup.com/brain-injuries/#webpage",
+      "url": "https://www.nareslawgroup.com/brain-injuries/",
+      "name": "Brain Injury Lawyers | Nares Law Group",
+      "isPartOf": {"@id": "https://www.nareslawgroup.com/#website"},
+      "about": {"@id": "https://www.nareslawgroup.com/brain-injuries/#service"},
+      "description": "Brain injury legal services for concussion and traumatic brain injury cases.",
+      "breadcrumb": {"@id": "https://www.nareslawgroup.com/brain-injuries/#breadcrumb"},
+      "inLanguage": "en-US"
+    },
+    {"@type": "BreadcrumbList",
+      "@id": "https://www.nareslawgroup.com/brain-injuries/#breadcrumb",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.nareslawgroup.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Brain Injuries", "item": "https://www.nareslawgroup.com/brain-injuries/"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {"@type": ["LegalService", "ProfessionalService"],
+      "@id": "https://www.nareslawgroup.com/truck-wreck-lawyer-denver/#service",
+      "name": "Truck Wreck Lawyer Denver",
+      "url": "https://www.nareslawgroup.com/truck-wreck-lawyer-denver/",
+      "serviceType": "Truck Accident Representation",
+      "provider": {"@id": "https://www.nareslawgroup.com/#org"},
+      "areaServed": {"@type": "City", "name": "Denver"},
+      "audience": {"@type": "Audience", "audienceType": "Injured Truck Crash Victims"},
+      "description": "Legal services for victims of truck wrecks in Denver, focusing on complex liability and severe injury claims.",
+      "hasOfferCatalog": {"@type": "OfferCatalog", "name": "Truck Crash Support", "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Evidence Preservation"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Expert Accident Analysis"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Severe Injury Litigation"}}
+      ]}
+    },
+    {"@type": "WebPage",
+      "@id": "https://www.nareslawgroup.com/truck-wreck-lawyer-denver/#webpage",
+      "url": "https://www.nareslawgroup.com/truck-wreck-lawyer-denver/",
+      "name": "Truck Wreck Lawyer Denver | Nares Law Group",
+      "isPartOf": {"@id": "https://www.nareslawgroup.com/#website"},
+      "about": {"@id": "https://www.nareslawgroup.com/truck-wreck-lawyer-denver/#service"},
+      "description": "Denver truck wreck attorneys handling complex commercial trucking injury cases.",
+      "breadcrumb": {"@id": "https://www.nareslawgroup.com/truck-wreck-lawyer-denver/#breadcrumb"},
+      "inLanguage": "en-US"
+    },
+    {"@type": "BreadcrumbList",
+      "@id": "https://www.nareslawgroup.com/truck-wreck-lawyer-denver/#breadcrumb",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.nareslawgroup.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Truck Wreck Lawyer Denver", "item": "https://www.nareslawgroup.com/truck-wreck-lawyer-denver/"}
+      ]
+    }
+  ]
+}

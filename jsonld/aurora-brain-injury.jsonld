@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {"@type": ["LegalService", "ProfessionalService"],
+      "@id": "https://www.nareslawgroup.com/brain-injury-lawyer-aurora/#service",
+      "name": "Brain Injury Lawyer Aurora",
+      "url": "https://www.nareslawgroup.com/brain-injury-lawyer-aurora/",
+      "serviceType": "Brain Injury Legal Representation",
+      "provider": {"@id": "https://www.nareslawgroup.com/#org"},
+      "areaServed": {"@type": "City", "name": "Aurora"},
+      "audience": {"@type": "Audience", "audienceType": "TBI Victims"},
+      "description": "Aurora brain injury lawyers supporting traumatic brain injury victims and families.",
+      "knowsAbout": ["Traumatic Brain Injury", "Concussion Claims", "Neuro Expert Testimony"],
+      "hasOfferCatalog": {"@type": "OfferCatalog", "name": "Brain Injury Support", "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Medical Expert Coordination"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Life Care Planning"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Future Damages Analysis"}}
+      ]}
+    },
+    {"@type": "WebPage",
+      "@id": "https://www.nareslawgroup.com/brain-injury-lawyer-aurora/#webpage",
+      "url": "https://www.nareslawgroup.com/brain-injury-lawyer-aurora/",
+      "name": "Brain Injury Lawyer Aurora | Nares Law Group",
+      "isPartOf": {"@id": "https://www.nareslawgroup.com/#website"},
+      "about": {"@id": "https://www.nareslawgroup.com/brain-injury-lawyer-aurora/#service"},
+      "description": "Legal help for traumatic brain injury victims in Aurora.",
+      "breadcrumb": {"@id": "https://www.nareslawgroup.com/brain-injury-lawyer-aurora/#breadcrumb"},
+      "inLanguage": "en-US"
+    },
+    {"@type": "BreadcrumbList",
+      "@id": "https://www.nareslawgroup.com/brain-injury-lawyer-aurora/#breadcrumb",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.nareslawgroup.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Brain Injury Lawyer Aurora", "item": "https://www.nareslawgroup.com/brain-injury-lawyer-aurora/"}
+      ]
+    }
+  ]
+}
