@@ -18,7 +18,7 @@
         "name": "Kaitlin Nares"  
       },
       "foundingDate": "2022",
-      "description": "Personal injury law firm helping victims of motor vehicle accidents, truck wrecks, brain injury, wrongful death, and general personal injury claims.",
+      "description": "Personal injury law firm in Colorado helping victims of motor vehicle accidents, truck wrecks, brain injury, wrongful death, and general personal injury claims.",
       "email": "mailto:info@nareslawgroup.com",
       "telephone": "+1-720-637-7786",
       "sameAs": [
@@ -98,7 +98,7 @@
       "isPartOf": {"@id": "https://www.nareslawgroup.com/#website"},
       "about": {"@id": "https://www.nareslawgroup.com/#org"},
       "primaryImageOfPage": {"@id": "https://www.nareslawgroup.com/#logo"},
-      "description": "Experienced Denver & Aurora personal injury law firm handling car, truck, brain injury, wrongful death, and general injury cases.",
+      "description": "Experienced Denver & Aurora, Colorado personal injury law firm handling car, truck, brain injury, wrongful death, and general injury cases.",
       "datePublished": "2025-04-07",
       "dateModified": "2025-04-07",
       "breadcrumb": {"@id": "https://www.nareslawgroup.com/#breadcrumb"}
