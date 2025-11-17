@@ -8,6 +8,14 @@
       "serviceType": "Motor Vehicle Accident Representation",
       "provider": {"@id": "https://www.nareslawgroup.com/#org"},
       "areaServed": {"@type": "City", "name": "Aurora"},
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "501 S. Cherry Street, Suite 1100",
+        "addressLocality": "Denver",
+        "addressRegion": "CO",
+        "postalCode": "80246",
+        "addressCountry": "US"
+      },
       "audience": {"@type": "Audience", "audienceType": "Injured Motorists"},
       "description": "Aurora motor vehicle accident attorneys pursuing compensation for injured drivers and passengers.",
       "hasOfferCatalog": {"@type": "OfferCatalog", "name": "Accident Case Support", "itemListElement": [

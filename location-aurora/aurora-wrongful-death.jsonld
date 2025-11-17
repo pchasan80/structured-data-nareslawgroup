@@ -8,6 +8,14 @@
       "serviceType": "Wrongful Death Representation",
       "provider": {"@id": "https://www.nareslawgroup.com/#org"},
       "areaServed": {"@type": "City", "name": "Aurora"},
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "501 S. Cherry Street, Suite 1100",
+        "addressLocality": "Denver",
+        "addressRegion": "CO",
+        "postalCode": "80246",
+        "addressCountry": "US"
+      },
       "audience": {"@type": "Audience", "audienceType": "Families of Wrongful Death Victims"},
       "description": "Aurora wrongful death attorneys helping families seek accountability and compensation.",
       "hasOfferCatalog": {"@type": "OfferCatalog", "name": "Wrongful Death Support", "itemListElement": [

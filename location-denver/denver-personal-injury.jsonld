@@ -8,6 +8,14 @@
       "serviceType": "Personal Injury Representation",
       "provider": {"@id": "https://www.nareslawgroup.com/#org"},
       "areaServed": {"@type": "City", "name": "Denver"},
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "501 S. Cherry Street, Suite 1100",
+        "addressLocality": "Denver",
+        "addressRegion": "CO",
+        "postalCode": "80246",
+        "addressCountry": "US"
+      },
       "audience": {"@type": "Audience", "audienceType": "Injury Victims"},
       "description": "Denver personal injury lawyers handling a broad range of injury and negligence claims.",
       "knowsAbout": ["Negligence", "Tort Claims", "Settlement Negotiation"],

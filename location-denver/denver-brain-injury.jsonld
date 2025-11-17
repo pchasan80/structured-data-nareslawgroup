@@ -8,6 +8,14 @@
       "serviceType": "Brain Injury Legal Representation",
       "provider": {"@id": "https://www.nareslawgroup.com/#org"},
       "areaServed": {"@type": "City", "name": "Denver"},
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "501 S. Cherry Street, Suite 1100",
+        "addressLocality": "Denver",
+        "addressRegion": "CO",
+        "postalCode": "80246",
+        "addressCountry": "US"
+      },
       "audience": {"@type": "Audience", "audienceType": "TBI Victims"},
       "description": "Denver brain injury attorneys advocating for traumatic brain injury victims.",
       "knowsAbout": ["Traumatic Brain Injury", "Concussion Claims", "Neuro Expert Testimony"],

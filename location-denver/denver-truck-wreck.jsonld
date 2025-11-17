@@ -8,6 +8,14 @@
       "serviceType": "Truck Accident Representation",
       "provider": {"@id": "https://www.nareslawgroup.com/#org"},
       "areaServed": {"@type": "City", "name": "Denver"},
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "501 S. Cherry Street, Suite 1100",
+        "addressLocality": "Denver",
+        "addressRegion": "CO",
+        "postalCode": "80246",
+        "addressCountry": "US"
+      },
       "audience": {"@type": "Audience", "audienceType": "Injured Truck Crash Victims"},
       "description": "Legal services for victims of truck wrecks in Denver, focusing on complex liability and severe injury claims.",
       "hasOfferCatalog": {"@type": "OfferCatalog", "name": "Truck Crash Support", "itemListElement": [
