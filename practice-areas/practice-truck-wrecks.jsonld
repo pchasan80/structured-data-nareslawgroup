@@ -11,7 +11,7 @@
         {"@type": "City", "name": "Aurora"},
         {"@type": "AdministrativeArea", "name": "Colorado"}
       ],
-      "description": "Representation for commercial truck and large vehicle accident claims including severe injury litigation.",
+      "description": "Representation for commercial truck and large vehicle accident claims in Colorado, including severe injury litigation.",
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Free initial consultation"}
     },
     {"@type": "WebPage",
@@ -20,7 +20,7 @@
       "name": "Truck Wreck Lawyers | Nares Law Group",
       "isPartOf": {"@id": "https://www.nareslawgroup.com/#website"},
       "about": {"@id": "https://www.nareslawgroup.com/truck-wrecks/#service"},
-      "description": "Truck accident legal services for victims of commercial vehicle crashes.",
+      "description": "Truck accident legal services for victims of commercial vehicle crashes in Colorado.",
       "breadcrumb": {"@id": "https://www.nareslawgroup.com/truck-wrecks/#breadcrumb"},
       "inLanguage": "en-US"
     },

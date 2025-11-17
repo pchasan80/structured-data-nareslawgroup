@@ -11,7 +11,7 @@
         {"@type": "City", "name": "Aurora"},
         {"@type": "AdministrativeArea", "name": "Colorado"}
       ],
-      "description": "Legal advocacy for traumatic brain injury victims including life care planning and future damages analysis.",
+      "description": "Legal advocacy for traumatic brain injury victims in Colorado, including life care planning and future damages analysis.",
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Free initial consultation"}
     },
     {"@type": "WebPage",
@@ -20,7 +20,7 @@
       "name": "Brain Injury Lawyers | Nares Law Group",
       "isPartOf": {"@id": "https://www.nareslawgroup.com/#website"},
       "about": {"@id": "https://www.nareslawgroup.com/brain-injuries/#service"},
-      "description": "Brain injury legal services for concussion and traumatic brain injury cases.",
+      "description": "Brain injury legal services for concussion and traumatic brain injury cases in Colorado.",
       "breadcrumb": {"@id": "https://www.nareslawgroup.com/brain-injuries/#breadcrumb"},
       "inLanguage": "en-US"
     },

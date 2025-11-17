@@ -11,7 +11,7 @@
         {"@type": "City", "name": "Aurora"},
         {"@type": "AdministrativeArea", "name": "Colorado"}
       ],
-      "description": "Legal representation for a broad range of personal injury and negligence claims.",
+      "description": "Legal representation for a broad range of personal injury and negligence claims in Colorado.",
       "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Free initial consultation"}
     },
     {"@type": "WebPage",
