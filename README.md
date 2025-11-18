@@ -15,21 +15,7 @@ Paste the JSON from the appropriate file into a script tag in the page `<head>` 
 ```html
 <!-- Example: embed the contents of practice-areas/practice-personal-injury.jsonld -->
 <script type="application/ld+json">
-{
-	"@context": "https://schema.org",
-	"@graph": [
-		{
-			"@type": "WebPage",
-			"@id": "https://www.nareslawgroup.com/personal-injury/#webpage",
-			"url": "https://www.nareslawgroup.com/personal-injury/",
-			"name": "Personal Injury Lawyers | Nares Law Group",
-			"isPartOf": {"@id": "https://www.nareslawgroup.com/#website"},
-			"about": {"@id": "https://www.nareslawgroup.com/personal-injury/#service"},
-			"description": "Personal injury legal services for victims seeking compensation in Colorado.",
-			"inLanguage": "en-US"
-		}
-	]
-}
+
 </script>
 ```
 
