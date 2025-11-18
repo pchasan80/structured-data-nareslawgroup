@@ -13,7 +13,6 @@ This folder contains initial JSON-LD snippets for Nares Law Group pages: homepag
 Paste the JSON from the appropriate file into a script tag in the page `<head>` (or just before `</body>`):
 
 ```html
-<!-- Example: embed the contents of practice-areas/practice-personal-injury.jsonld -->
 <script type="application/ld+json">
 
 </script>
