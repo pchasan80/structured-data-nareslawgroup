@@ -1,41 +1,61 @@
 {
   "@context": "https://schema.org",
   "@graph": [
-    {"@type": "Service",
-      "@id": "https://www.nareslawgroup.com/brain-injuries/#service",
-      "name": "Brain Injury Legal Services",
-      "serviceType": "Traumatic Brain Injury Representation",
-      "provider": {"@id": "https://www.nareslawgroup.com/#org"},
-      "areaServed": [
-        {"@type": "City", "name": "Denver"},
-        {"@type": "City", "name": "Aurora"},
-        {"@type": "AdministrativeArea", "name": "Colorado"}
-      ],
-      "description": "Legal advocacy for traumatic brain injury victims in Colorado, including life care planning and future damages analysis.",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Free initial consultation"}
-    },
-    {"@type": "WebPage",
+    {
+      "@type": "WebPage",
       "@id": "https://www.nareslawgroup.com/brain-injuries/#webpage",
       "url": "https://www.nareslawgroup.com/brain-injuries/",
       "name": "Brain Injury Lawyers | Nares Law Group",
-      "isPartOf": {"@id": "https://www.nareslawgroup.com/#website"},
-      "about": {"@id": "https://www.nareslawgroup.com/brain-injuries/#service"},
+      "isPartOf": { "@id": "https://www.nareslawgroup.com/#website" },
+      "about": { "@id": "https://www.nareslawgroup.com/brain-injuries/#service" },
       "description": "Brain injury legal services for concussion and traumatic brain injury cases in Colorado.",
-      "breadcrumb": {"@id": "https://www.nareslawgroup.com/brain-injuries/#breadcrumb"},
+      "breadcrumb": { "@id": "https://www.nareslawgroup.com/brain-injuries/#breadcrumb" },
       "inLanguage": "en-US"
     },
-    {"@type": "BreadcrumbList",
+    {
+      "@type": "BreadcrumbList",
       "@id": "https://www.nareslawgroup.com/brain-injuries/#breadcrumb",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.nareslawgroup.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Brain Injuries", "item": "https://www.nareslawgroup.com/brain-injuries/"}
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.nareslawgroup.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Brain Injuries", "item": "https://www.nareslawgroup.com/brain-injuries/" }
       ]
     },
-    {"@type": "FAQPage",
+    {
+      "@type": "LegalService",
+      "@id": "https://www.nareslawgroup.com/brain-injuries/#service",
+      "name": "Brain Injury Legal Services",
+      "description": "Legal advocacy for traumatic brain injury victims in Colorado, including life care planning and future damages analysis.",
+      "serviceType": "Traumatic Brain Injury Representation",
+      "url": "https://www.nareslawgroup.com/brain-injuries/",
+      "provider": { "@id": "https://www.nareslawgroup.com/#org" },
+      "image": "https://www.nareslawgroup.com/wp-content/uploads/elementor/thumbs/LOGO-2-FOR-LIGHT-BACKGROUND_2-removebg-preview-1-r333rbobxh5vfux4toi0wl2ghzqn1hl7w9d74e7lpc.png",
+      "areaServed": [
+        { "@type": "City", "name": "Denver" },
+        { "@type": "City", "name": "Aurora" },
+        { "@type": "AdministrativeArea", "name": "Colorado" }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": 94,
+        "reviewCount": 94,
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "audience": { "@type": "Audience", "audienceType": "Individuals seeking brain injury legal services in Colorado" }
+    },
+    {
+      "@type": "FAQPage",
       "@id": "https://www.nareslawgroup.com/brain-injuries/#faq",
-      "isPartOf": {"@id": "https://www.nareslawgroup.com/brain-injuries/#webpage"},
       "mainEntity": [
-        {"@type": "Question", "name": "Why hiring a brain injury lawyer matters", "acceptedAnswer": {"@type": "Answer", "text": "Brain injuries are often invisible and require specialized testing and expert coordination. Insurance carriers may minimize claims, while long-term consequences affect work and quality of life; a lawyer ensures full damages are pursued."}}
+        {
+          "@type": "Question",
+          "name": "Why hiring a brain injury lawyer matters",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Brain injuries are often invisible and require specialized testing and expert coordination. Insurance carriers may minimize claims, while long-term consequences affect work and quality of life; a lawyer ensures full damages are pursued."
+          }
+        }
       ]
     }
   ]

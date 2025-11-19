@@ -1,41 +1,61 @@
 {
   "@context": "https://schema.org",
   "@graph": [
-    {"@type": "Service",
-      "@id": "https://www.nareslawgroup.com/truck-wrecks/#service",
-      "name": "Truck Wreck Legal Services",
-      "serviceType": "Truck Accident Legal Representation",
-      "provider": {"@id": "https://www.nareslawgroup.com/#org"},
-      "areaServed": [
-        {"@type": "City", "name": "Denver"},
-        {"@type": "City", "name": "Aurora"},
-        {"@type": "AdministrativeArea", "name": "Colorado"}
-      ],
-      "description": "Representation for commercial truck and large vehicle accident claims in Colorado, including severe injury litigation.",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Free initial consultation"}
-    },
-    {"@type": "WebPage",
+    {
+      "@type": "WebPage",
       "@id": "https://www.nareslawgroup.com/truck-wrecks/#webpage",
       "url": "https://www.nareslawgroup.com/truck-wrecks/",
       "name": "Truck Wreck Lawyers | Nares Law Group",
-      "isPartOf": {"@id": "https://www.nareslawgroup.com/#website"},
-      "about": {"@id": "https://www.nareslawgroup.com/truck-wrecks/#service"},
+      "isPartOf": { "@id": "https://www.nareslawgroup.com/#website" },
+      "about": { "@id": "https://www.nareslawgroup.com/truck-wrecks/#service" },
       "description": "Truck accident legal services for victims of commercial vehicle crashes in Colorado.",
-      "breadcrumb": {"@id": "https://www.nareslawgroup.com/truck-wrecks/#breadcrumb"},
+      "breadcrumb": { "@id": "https://www.nareslawgroup.com/truck-wrecks/#breadcrumb" },
       "inLanguage": "en-US"
     },
-    {"@type": "BreadcrumbList",
+    {
+      "@type": "BreadcrumbList",
       "@id": "https://www.nareslawgroup.com/truck-wrecks/#breadcrumb",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.nareslawgroup.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Truck Wrecks", "item": "https://www.nareslawgroup.com/truck-wrecks/"}
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.nareslawgroup.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Truck Wrecks", "item": "https://www.nareslawgroup.com/truck-wrecks/" }
       ]
     },
-    {"@type": "FAQPage",
+    {
+      "@type": "LegalService",
+      "@id": "https://www.nareslawgroup.com/truck-wrecks/#service",
+      "name": "Truck Wreck Legal Services",
+      "description": "Representation for commercial truck and large vehicle accident claims in Colorado, including severe injury litigation.",
+      "serviceType": "Truck Accident Legal Representation",
+      "url": "https://www.nareslawgroup.com/truck-wrecks/",
+      "provider": { "@id": "https://www.nareslawgroup.com/#org" },
+      "image": "https://www.nareslawgroup.com/wp-content/uploads/elementor/thumbs/LOGO-2-FOR-LIGHT-BACKGROUND_2-removebg-preview-1-r333rbobxh5vfux4toi0wl2ghzqn1hl7w9d74e7lpc.png",
+      "areaServed": [
+        { "@type": "City", "name": "Denver" },
+        { "@type": "City", "name": "Aurora" },
+        { "@type": "AdministrativeArea", "name": "Colorado" }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": 94,
+        "reviewCount": 94,
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "audience": { "@type": "Audience", "audienceType": "Individuals seeking truck wreck legal services in Colorado" }
+    },
+    {
+      "@type": "FAQPage",
       "@id": "https://www.nareslawgroup.com/truck-wrecks/#faq",
-      "isPartOf": {"@id": "https://www.nareslawgroup.com/truck-wrecks/#webpage"},
       "mainEntity": [
-        {"@type": "Question", "name": "Why choose Nares Law Group, LLC", "acceptedAnswer": {"@type": "Answer", "text": "Proven record in handling complex trucking crash cases, knowledge of both Colorado law and federal trucking regulations, and trial-tested strategies to counter big trucking companies."}}
+        {
+          "@type": "Question",
+          "name": "Why choose Nares Law Group, LLC",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Proven record in handling complex trucking crash cases, knowledge of both Colorado law and federal trucking regulations, and trial-tested strategies to counter big trucking companies."
+          }
+        }
       ]
     }
   ]

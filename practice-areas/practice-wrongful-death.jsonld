@@ -1,35 +1,48 @@
 {
   "@context": "https://schema.org",
   "@graph": [
-    {"@type": "Service",
-      "@id": "https://www.nareslawgroup.com/wrongful-death/#service",
-      "name": "Wrongful Death Legal Services",
-      "serviceType": "Wrongful Death Representation",
-      "provider": {"@id": "https://www.nareslawgroup.com/#org"},
-      "areaServed": [
-        {"@type": "City", "name": "Denver"},
-        {"@type": "City", "name": "Aurora"},
-        {"@type": "AdministrativeArea", "name": "Colorado"}
-      ],
-      "description": "Legal services supporting families pursuing wrongful death claims in Colorado, including economic and non-economic damages.",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Free initial consultation"}
-    },
-    {"@type": "WebPage",
+    {
+      "@type": "WebPage",
       "@id": "https://www.nareslawgroup.com/wrongful-death/#webpage",
       "url": "https://www.nareslawgroup.com/wrongful-death/",
       "name": "Wrongful Death Lawyers | Nares Law Group",
-      "isPartOf": {"@id": "https://www.nareslawgroup.com/#website"},
-      "about": {"@id": "https://www.nareslawgroup.com/wrongful-death/#service"},
+      "isPartOf": { "@id": "https://www.nareslawgroup.com/#website" },
+      "about": { "@id": "https://www.nareslawgroup.com/wrongful-death/#service" },
       "description": "Wrongful death legal services for families seeking justice and compensation in Colorado.",
-      "breadcrumb": {"@id": "https://www.nareslawgroup.com/wrongful-death/#breadcrumb"},
+      "breadcrumb": { "@id": "https://www.nareslawgroup.com/wrongful-death/#breadcrumb" },
       "inLanguage": "en-US"
     },
-    {"@type": "BreadcrumbList",
+    {
+      "@type": "BreadcrumbList",
       "@id": "https://www.nareslawgroup.com/wrongful-death/#breadcrumb",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.nareslawgroup.com/"},
-        {"@type": "ListItem", "position": 2, "name": "Wrongful Death", "item": "https://www.nareslawgroup.com/wrongful-death/"}
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.nareslawgroup.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Wrongful Death", "item": "https://www.nareslawgroup.com/wrongful-death/" }
       ]
+    },
+    {
+      "@type": "LegalService",
+      "@id": "https://www.nareslawgroup.com/wrongful-death/#service",
+      "name": "Wrongful Death Legal Services",
+      "description": "Legal services supporting families pursuing wrongful death claims in Colorado, including economic and non-economic damages.",
+      "serviceType": "Wrongful Death Representation",
+      "url": "https://www.nareslawgroup.com/wrongful-death/",
+      "provider": { "@id": "https://www.nareslawgroup.com/#org" },
+      "image": "https://www.nareslawgroup.com/wp-content/uploads/elementor/thumbs/LOGO-2-FOR-LIGHT-BACKGROUND_2-removebg-preview-1-r333rbobxh5vfux4toi0wl2ghzqn1hl7w9d74e7lpc.png",
+      "areaServed": [
+        { "@type": "City", "name": "Denver" },
+        { "@type": "City", "name": "Aurora" },
+        { "@type": "AdministrativeArea", "name": "Colorado" }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": 94,
+        "reviewCount": 94,
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "audience": { "@type": "Audience", "audienceType": "Individuals seeking wrongful death legal services in Colorado" }
     }
   ]
 }
