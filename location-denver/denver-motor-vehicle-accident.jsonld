@@ -46,10 +46,13 @@
       "@id": "https://www.nareslawgroup.com/motor-vehicle-accident-lawyer-denver/#faq",
       "isPartOf": {"@id": "https://www.nareslawgroup.com/motor-vehicle-accident-lawyer-denver/#webpage"},
       "mainEntity": [
-        {"@type": "Question", "name": "How long do car accident cases take?", "acceptedAnswer": {"@type": "Answer", "text": "It depends on treatment duration, records, and the number of parties. Many cases resolve after recovery through negotiation; if offers aren’t fair, we file suit."}},
-        {"@type": "Question", "name": "Do I have to go to court?", "acceptedAnswer": {"@type": "Answer", "text": "Most car accident claims settle. If settlement stalls or is unfair, we prepare and file a lawsuit and guide you through each step."}},
-        {"@type": "Question", "name": "What if I was partly at fault?", "acceptedAnswer": {"@type": "Answer", "text": "Colorado’s comparative fault rules may reduce recovery by your share of fault. We build proof from reports, photos, and records to present your claim."}},
-        {"@type": "Question", "name": "When should I contact a car accident lawyer?", "acceptedAnswer": {"@type": "Answer", "text": "As soon as possible. Early contact helps preserve evidence, protect your claim, and avoid broad insurer releases or recorded statements."}}
-      ]}
+        {"@type": "Question", "name": "What should I do right after a car or truck accident in Denver?", "acceptedAnswer": {"@type": "Answer", "text": "Get medical care the same day, document the scene, avoid recorded statements to insurers, and contact us to preserve evidence and confirm timelines."}},
+        {"@type": "Question", "name": "Will the insurance company pay all my medical bills after a crash in Denver?", "acceptedAnswer": {"@type": "Answer", "text": "Coverage depends on policies like med-pay, UM/UIM, and liability limits. We track balances, review coverage, and pursue all available recovery."}},
+        {"@type": "Question", "name": "What if the other driver has no insurance in Denver? Can I still get help?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. We evaluate UM/UIM and other options and move the file forward with clear documentation."}},
+        {"@type": "Question", "name": "Do I need a lawyer in Denver if the crash was not my fault?", "acceptedAnswer": {"@type": "Answer", "text": "Not required, but counsel helps protect your rights, organize records, and negotiate with insurers. We offer a free consultation."}},
+        {"@type": "Question", "name": "How much money can I get after a car or truck accident in Denver?", "acceptedAnswer": {"@type": "Answer", "text": "Compensation depends on medical bills, wage loss, future care, and life impact. We present clear math tied to records and evidence."}},
+        {"@type": "Question", "name": "Can I speak with someone today?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Contact us for a free consultation and a step-by-step plan."}}
+      ]
+    }
   ]
 }

@@ -45,8 +45,12 @@
       "@id": "https://www.nareslawgroup.com/truck-wreck-lawyer-denver/#faq",
       "isPartOf": {"@id": "https://www.nareslawgroup.com/truck-wreck-lawyer-denver/#webpage"},
       "mainEntity": [
-        {"@type": "Question", "name": "How long do truck accident cases take?", "acceptedAnswer": {"@type": "Answer", "text": "Truck accident cases are settled based on the complexity of the evidence and recovery time. Most cases resolve within months after treatment ends, though semi-truck accident claims can take longer due to multiple parties."}},
-        {"@type": "Question", "name": "What to expect when you work with us", "acceptedAnswer": {"@type": "Answer", "text": "When you contact our Denver truck accident team, we act fast. We serve Denver and all of Colorado, guiding clients from first call to final resolution."}}
+        {"@type": "Question", "name": "What should I do right after a car or truck accident in Denver?", "acceptedAnswer": {"@type": "Answer", "text": "Get medical care the same day, document the scene, avoid recorded statements to insurers, and contact us to preserve evidence and confirm timelines."}},
+        {"@type": "Question", "name": "Will the insurance company pay all my medical bills after a crash in Denver?", "acceptedAnswer": {"@type": "Answer", "text": "Coverage depends on policies like med-pay, UM/UIM, and liability limits. We track balances, review coverage, and pursue all available recovery."}},
+        {"@type": "Question", "name": "What if the other driver has no insurance in Denver? Can I still get help?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. We evaluate UM/UIM and other options and move the file forward with clear documentation."}},
+        {"@type": "Question", "name": "Do I need a lawyer in Denver if the crash was not my fault?", "acceptedAnswer": {"@type": "Answer", "text": "Not required, but counsel helps protect your rights, organize records, and negotiate with insurers. We offer a free consultation."}},
+        {"@type": "Question", "name": "How much money can I get after a car or truck accident in Denver?", "acceptedAnswer": {"@type": "Answer", "text": "Compensation depends on medical bills, wage loss, future care, and life impact. We present clear math tied to records and evidence."}},
+        {"@type": "Question", "name": "Can I speak with someone today?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Contact us for a free consultation and a step-by-step plan."}}
       ]
     }
   ]
