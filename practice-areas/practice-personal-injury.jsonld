@@ -28,6 +28,14 @@
       "serviceType": "Personal Injury Representation",
       "url": "https://www.nareslawgroup.com/personal-injury/",
       "provider": { "@id": "https://www.nareslawgroup.com/#org" },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "501 S. Cherry Street, Suite 1100",
+        "addressLocality": "Denver",
+        "addressRegion": "CO",
+        "postalCode": "80246",
+        "addressCountry": "US"
+      },
       "image": "https://www.nareslawgroup.com/wp-content/uploads/elementor/thumbs/LOGO-2-FOR-LIGHT-BACKGROUND_2-removebg-preview-1-r333rbobxh5vfux4toi0wl2ghzqn1hl7w9d74e7lpc.png",
       "areaServed": [
         { "@type": "City", "name": "Denver" },
