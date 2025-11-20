@@ -52,7 +52,7 @@
       },
       "audience": { "@type": "Audience", "audienceType": "Individuals seeking wrongful death legal services in Colorado" },
       "telephone": "+1-720-637-7786",
-      "priceRange": "Contingency fee basis; no fee unless we win."
+      "priceRange": "$"
     }
   ]
 }
