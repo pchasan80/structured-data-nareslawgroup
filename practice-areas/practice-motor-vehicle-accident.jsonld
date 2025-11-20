@@ -50,7 +50,9 @@
         "bestRating": "5",
         "worstRating": "1"
       },
-      "audience": { "@type": "Audience", "audienceType": "Individuals seeking motor vehicle accident legal services in Colorado" }
+      "audience": { "@type": "Audience", "audienceType": "Individuals seeking motor vehicle accident legal services in Colorado" },
+      "telephone": "+1-720-637-7786",
+      "priceRange": "Contingency fee basis; no fee unless we win."
     },
     {
       "@type": "FAQPage",
