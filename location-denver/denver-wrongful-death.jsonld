@@ -22,7 +22,10 @@
         {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Estate Claim Assessment"}},
         {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Liability Investigation"}},
         {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Economic Loss Analysis"}}
-      ]}
+      ]},
+      "image": "https://www.nareslawgroup.com/wp-content/uploads/elementor/thumbs/LOGO-2-FOR-LIGHT-BACKGROUND_2-removebg-preview-1-r333rbobxh5vfux4toi0wl2ghzqn1hl7w9d74e7lpc.png",
+      "telephone": "+1-720-637-7786",
+      "priceRange": "Contingency fee basis; no fee unless we win."
     },
     {"@type": "WebPage",
       "@id": "https://www.nareslawgroup.com/wrongful-death-lawyer-denver/#webpage",
